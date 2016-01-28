@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="Door.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="FollowEnemy.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="InputHandler.cpp" />
+    <ClCompile Include="Leaderboard.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="Obstacle.cpp" />
+    <ClCompile Include="ObstacleManager.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="Pot.cpp" />
+    <ClCompile Include="ThreadingMutex.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Hackathon\GMIT_Hackaton_Team2\GMIT_Hackaton_Team2\targetver.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="CollisionResponder.h" />
+    <ClInclude Include="Door.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="FollowEnemy.h" />
+    <ClInclude Include="InputHandler.h" />
+    <ClInclude Include="Leaderboard.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="MyContactListener.h" />
+    <ClInclude Include="Obstacle.h" />
+    <ClInclude Include="ObstacleManager.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="Pot.h" />
+    <ClInclude Include="ThreadingMutex.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\Box2D.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lib\Box2D.pdb" />
+  </ItemGroup>
+</Project>
